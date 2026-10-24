@@ -1,0 +1,14 @@
+---
+// components
+import Container from "../../elements/Container.astro"
+import ContactItem from "./ContactItem.astro"
+---
+<Container variant={'md'}>
+    <div class="flex lg:flex-row flex-col gap-8 text-base-900">
+        <a href="/resume.pdf" download="Brajendra_Pandey_CV.pdf" class="block w-full">
+    <ContactItem title="Resume" contact="Download PDF →" />
+  </a>
+
+        <ContactItem title="Email" contact="toworkbraj@gmail.com" />
+    </div>
+</Container>
